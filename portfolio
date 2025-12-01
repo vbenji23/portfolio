@@ -1,0 +1,51 @@
+                          s                                          <!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accueil — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand"><a href="index.html">MonPortfolio</a></h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="projects.html">Projets</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Bonjour, je suis Benji</h2>
+      <p>Développeur web | Frontend & UI | Portfolio</p>
+      <a class="cta" href="projects.html">Voir mes projets</a>
+    </section>
+
+    <section class="features">
+      <article>
+        <h3>Design moderne</h3>
+        <p>Site épuré, responsive et accessible.</p>
+      </article>
+      <article>
+        <h3>Projets variés</h3>
+        <p>Exemples d'applications web et composants UI.</p>
+      </article>
+      <article>
+        <h3>CI/CD</h3>
+        <p>Pipeline automatisée : test, qualité, sécurité.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Benji — <a href="about.html">À propos</a></p>
+    </div>
+  </footer>
+</body>
+</html>
